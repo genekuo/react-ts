@@ -5,7 +5,7 @@
     "repository": "https://github.com/genekuo",
     "license": "MIT",
     "scripts": {
-      "build": "tsc",
+      "build": "tsc -p tsconfig.server.json",
       "start": "nodemon --inspect src/main.ts"
     },
     "dependencies": {
